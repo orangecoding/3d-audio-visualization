@@ -1,0 +1,45 @@
+<!--
+* ----------------------------------------------------------------------------
+* "THE BEER-WARE LICENSE" (Revision 42):
+* <christian@orange-coding.net> wrote this file. As long as you retain this notice you
+* can do whatever you want with this stuff. If we meet some day, and you think
+* this stuff is worth it, you can buy me a beer in return.
+* ----------------------------------------------------------------------------
+-->
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>3d visualization of an (HTML5) audiostream</title>
+		<meta charset="utf-8">
+		<link href="css/styles.css" rel="stylesheet" type="text/css" />
+		<link href="css/downloadAnimation.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="js/utils.js"></script>
+		<script type="text/javascript" src="js/three/Three.js"></script>
+		<script type="text/javascript" src="js/three/Stats.js"></script>
+		<script type="text/javascript" src="js/dsp.js"></script>
+		<link rel="shortcut icon" href="gfx/icon.ico" type="image/x-icon" />
+	</head>
+	<body>
+		<div id="header">
+			<p class="description">
+				3d visualization of an audiostream. Download the song <a href="http://www.jamendo.com/en/track/81740/sad-robot" target="_blank">here</a>  |  Use your mousewheel to have even more fun.. ;)  |  Source: <a href="http://goo.gl/W78diF" target="_blank">Github</a>  |  Visit me: <a href="http://orange-coding.net" target="_blank">OrangeCoding</a>
+			</p>
+		</div>
+		<div id="downloadAnimation" style="opacity: 1;">
+
+			<div class="animation">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+
+			<div class="download_hint">
+				...Downloading Music Data...
+			</div>
+
+		</div>
+		<script type="text/javascript" src="js/audio.js"></script>
+
+	</body>
+</html>

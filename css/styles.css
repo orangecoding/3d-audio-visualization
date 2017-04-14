@@ -1,0 +1,26 @@
+body {
+	font-family: Monospace;
+	background-color: #000000;
+	margin: 0px;
+	overflow: hidden;
+}
+
+#header {
+	border: dotted #ffffff 1px;
+	background-image:url('../gfx/bg.jpg');
+	position:absolute;
+	top:0;
+	color:#ffffff;
+	width:100%;
+	height:40px;			
+	padding:0px;
+}
+.description {
+	margin:8px;
+}
+
+a {
+color: #ffff00;
+    text-decoration: none;
+}
+
